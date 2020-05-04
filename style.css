@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+#main, *, body, html {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+/* Title */
+    #title h1 {
+        font-size: 2.4rem;
+        margin: 1.6rem;
+    }
+
+    #title p {
+        margin-bottom: 1.4rem;
+        font-weight: 100;
+    }
+/* Image section */
+    #img-div {
+        margin: 0;
+        padding: 2rem 0;
+        width: 100%;
+        background: rgba(236, 233, 233, 0.97);
+        font-size: 12px;
+    }
+
+        #image {
+            margin: auto;
+            display: block;
+            width: 84%;
+            max-width: 400px;
+            border-radius: 20px;
+        }
+
+        #img-caption {
+            margin: 1.8rem auto 0;
+            width: 84%;
+        }
+
+            #img-caption span a, #external-links ol li a {
+                text-decoration: none;
+                color: #000000;
+            }
+
+            #img-caption span a:hover, #external-links ol li a:hover, footer a:hover {
+                text-decoration: underline;
+            }
+
+/* Body Text */
+    #tribute-info {
+        margin: 2rem auto;
+        padding: 0 2rem;
+    }
+    
+        #tribute-info h2 {
+            font-size: 1.6rem;
+            margin: 0 0 2rem;
+        }
+
+        #tribute-info ul {
+            list-style-position: outside;
+        }
+
+            #tribute-info ul li {
+                margin: auto;
+                text-align: justify;
+                margin-bottom: 2rem;
+                max-width: 600px;
+            }
+
+/* External links box*/
+    #external-links {
+        margin: auto;
+        padding: 1.4rem;
+        width: 80%;
+        max-width: 600px;
+        background: #535353;
+        color: #ffffff;
+        border-radius: 20px;
+    }        
+
+        #external-links p, #external-links ol li {
+            text-align: justify;
+            margin-bottom: 1rem;
+        }
+        
+        #external-links ol {
+            list-style-position: inside;
+        }
+        
+            #external-links ol li a{
+                color: #ffffff;
+            }
+
+footer {
+    margin-top: 2rem;
+    padding: 2rem 0;
+    background: rgba(236, 233, 233, 0.97);
+}
+    footer a {
+        text-decoration: none;
+        color: #000000;
+    }
